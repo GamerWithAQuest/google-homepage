@@ -1,0 +1,1 @@
+This is a test project to pick apart the Google homepage and to reconstruct it. Project from The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
