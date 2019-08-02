@@ -18,16 +18,47 @@
     <div class="row">
         <div class="col-sm-12" id="h1"><h1>Google</h1></div>
     </div>
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-4"></div>
+                <input class="col-sm-4 searchbar" type="search">
+                <div class="col-sm-4"></div>
+        </div>
+    </div>
     
-    <input class="search-bar" type="search"> <br>
-    
-    <button>Google Search</button>
-    
-    <button>I'm Feeling Lucky</button>
+    <div class="container">
+            <div class="row">
+                    
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 btns"><button class="leftbtn">Google Search</button><button class="rightbtn">I'm Feeling Lucky</button></div>
+                    <div class="col-sm-4"></div>
+            </div>
+        </div>
 
     <style>
-        #h1 {
+        .leftbtn {
+            margin: 20px 50px 0px 0px;
+        }
+
+        .rightbtn {
+            margin: 20px 0px 0px 50px;
+        }
+        .btns {
             text-align: center;
+        }
+
+        .searchbar {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #h1 {
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 90px;
         }
     </style>
 </html>
