@@ -5,14 +5,18 @@
 
     <head>
         <!--Top left header-->
-        <div class="left-header">
-            <span>About</span>
-            <span>Store</span>
-        </div>
+        <div class="container">
+            <div class="col-sm-4">
+                    <span class="hlinks">About</span>
+                    <span class="hlinks">Store</span>
+            </div>
+            <div class="col-sm-4"></div>
+    
         <!--Top right header-->
-        <div class="right-header">
-            <span>Gmail</span>
-            <span>Images</span>
+            <div class="col-sm-4">
+                <span class="hlinks">Gmail</span>
+                <span class="hlinks">Images</span>
+            </div>
         </div>
     </head>
     <div class="row">
@@ -36,6 +40,11 @@
         </div>
 
     <style>
+        .hlinks {
+            margin-top: 20px;
+            padding: 40px;
+        }
+
         .leftbtn {
             margin: 20px 50px 0px 0px;
         }
